@@ -1,0 +1,19 @@
+{
+  "name": "mega-obese-api",
+  "version": "1.0.0",
+  "description": "Mega Obese Space Store — Express API + PostgreSQL",
+  "main": "server.js",
+  "scripts": {
+    "setup": "node setup.js",
+    "setup:reset": "node setup.js --reset",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.13.0"
+  }
+}
